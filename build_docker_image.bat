@@ -1,0 +1,1 @@
+docker build -t nathan_opencv .

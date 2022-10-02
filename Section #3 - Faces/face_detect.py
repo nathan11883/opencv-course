@@ -6,7 +6,7 @@ img = cv.imread('../Resources/Photos/group 1.jpg')
 cv.imshow('Group of 5 people', img)
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-cv.imshow('Gray People', gray)
+cv.imshow('Gray  nm People', gray)
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
